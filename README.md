@@ -56,7 +56,7 @@ margin 属性为给定元素设置所有四个（上下左右）方向的外边�
 
 <div class="box">
     <div class="margins marginTop">
-        margin 50% 是父元素的宽/高的 50%
+        margin 百分比
     </div>
 </div>
 
@@ -84,6 +84,8 @@ margin 属性为给定元素设置所有四个（上下左右）方向的外边�
 
 ## padding
 
+padding属性设置一个元素的内边距，padding 区域指一个元素的内容和其边界之间的空间，该属性不能为负值。[更多内容请参考 MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS/padding)
+
 ```css
 
 .paddingLeft {
@@ -105,7 +107,7 @@ margin 属性为给定元素设置所有四个（上下左右）方向的外边�
 
 <div class="box">
     <div class="paddings paddingLeft">
-        padding 50%
+        padding 百分比
     </div>
 </div>
 
